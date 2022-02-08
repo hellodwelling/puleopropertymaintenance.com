@@ -478,8 +478,19 @@
                                         <div class="overflow-hidden rounded-lg shadow-lg ring-1 ring-black ring-opacity-5">
                                             <div class="relative grid gap-6 px-5 py-6 bg-white sm:gap-8 sm:p-8">
                                                 <!-- Render each sublink -->
-                                                <!-- <each loop="link in [{&#x27;title&#x27;: &#x27;Our Best Work&#x27;, &#x27;copy&#x27;: &#x27;Landscape-Design&#x27;, &#x27;href&#x27;: &#x27;gallery-Landscape-Design&#x27;}, {&#x27;title&#x27;: &#x27;Our Best Work&#x27;, &#x27;copy&#x27;: &#x27;Lawn-Maintenance&#x27;, &#x27;href&#x27;: &#x27;gallery-Lawn-Maintenance&#x27;}, {&#x27;title&#x27;: &#x27;Our Best Work&#x27;, &#x27;copy&#x27;: &#x27;Snow-Services&#x27;, &#x27;href&#x27;: &#x27;gallery-Snow-Services&#x27;}, {&#x27;title&#x27;: &#x27;All Photos&#x27;, &#x27;copy&#x27;: &#x27;All Photos&#x27;, &#x27;href&#x27;: &#x27;gallery-All&#x27;}]"> -->
+                                                <!-- <each loop="link in [{&#x27;title&#x27;: &#x27;Our Best Work&#x27;, &#x27;copy&#x27;: &#x27;Snow-Services&#x27;, &#x27;href&#x27;: &#x27;gallery-Snow-Services&#x27;}, {&#x27;title&#x27;: &#x27;Our Best Work&#x27;, &#x27;copy&#x27;: &#x27;Landscape-Design&#x27;, &#x27;href&#x27;: &#x27;gallery-Landscape-Design&#x27;}, {&#x27;title&#x27;: &#x27;Our Best Work&#x27;, &#x27;copy&#x27;: &#x27;Lawn-Maintenance&#x27;, &#x27;href&#x27;: &#x27;gallery-Lawn-Maintenance&#x27;}, {&#x27;title&#x27;: &#x27;All Photos&#x27;, &#x27;copy&#x27;: &#x27;All Photos&#x27;, &#x27;href&#x27;: &#x27;gallery-All&#x27;}]"> -->
                                                   
+                                                    <a
+                                                        href=" gallery-Snow-Services "
+                                                        role="menuitem"
+                                                        class="block p-3 -m-3 transition rounded-md  focus:outline-none focus:ring-2 ring-primary ring-opacity-75 ring-offset-2 hover:bg-gray-50"
+                                                    >
+                                                        <!-- <p class="text-base font-medium text-gray-900">Our Best Work</p> -->
+                                                        <p class="mt-1 text-sm text-gray-500">Snow-Services</p>
+                                                    </a>
+                                                <!-- </each> -->
+                                               <!--  -->
+                                                 
                                                     <a
                                                         href=" gallery-Landscape-Design "
                                                         role="menuitem"
@@ -498,17 +509,6 @@
                                                     >
                                                         <!-- <p class="text-base font-medium text-gray-900">Our Best Work</p> -->
                                                         <p class="mt-1 text-sm text-gray-500">Lawn-Maintenance</p>
-                                                    </a>
-                                                <!-- </each> -->
-                                               <!--  -->
-                                                 
-                                                    <a
-                                                        href=" gallery-Snow-Services "
-                                                        role="menuitem"
-                                                        class="block p-3 -m-3 transition rounded-md  focus:outline-none focus:ring-2 ring-primary ring-opacity-75 ring-offset-2 hover:bg-gray-50"
-                                                    >
-                                                        <!-- <p class="text-base font-medium text-gray-900">Our Best Work</p> -->
-                                                        <p class="mt-1 text-sm text-gray-500">Snow-Services</p>
                                                     </a>
                                                 <!-- </each> -->
                                                <!--  -->
@@ -818,6 +818,12 @@
                                         <div class="relative grid gap-6 px-5 py-2 bg-white rounded-lg">
                                             <!-- Render each sublink -->
                                             
+                                                <a href="gallery-Snow-Services" role="menuitem" class="block p-3 -m-3 transition rounded-md">
+                                                    <!-- <p class="text-base font-medium text-gray-900">Our Best Work</p> -->
+                                                    <p class="mt-1 text-sm text-gray-500">Snow-Services</p>
+                                                </a>
+                                            <!-- </each> -->
+                                            
                                                 <a href="gallery-Landscape-Design" role="menuitem" class="block p-3 -m-3 transition rounded-md">
                                                     <!-- <p class="text-base font-medium text-gray-900">Our Best Work</p> -->
                                                     <p class="mt-1 text-sm text-gray-500">Landscape-Design</p>
@@ -827,12 +833,6 @@
                                                 <a href="gallery-Lawn-Maintenance" role="menuitem" class="block p-3 -m-3 transition rounded-md">
                                                     <!-- <p class="text-base font-medium text-gray-900">Our Best Work</p> -->
                                                     <p class="mt-1 text-sm text-gray-500">Lawn-Maintenance</p>
-                                                </a>
-                                            <!-- </each> -->
-                                            
-                                                <a href="gallery-Snow-Services" role="menuitem" class="block p-3 -m-3 transition rounded-md">
-                                                    <!-- <p class="text-base font-medium text-gray-900">Our Best Work</p> -->
-                                                    <p class="mt-1 text-sm text-gray-500">Snow-Services</p>
                                                 </a>
                                             <!-- </each> -->
                                             
@@ -2644,7 +2644,7 @@ Our Guarantee:  Expert quality everytime. We don&#x27;t consider a job done unle
         
         <div class="flex justify-center -m-1">
             <a
-                href="gallery-Landscape-Design"
+                href="gallery-Snow-Services"
                 class="inline-block p-1 mt-12 text-xl font-semibold text-center transition  focus:ring-2 focus:outline-none ring-primary ring-offset-2 text-primary hover:text-primary-darker"
                 >See more photos</a
             >
@@ -3056,7 +3056,7 @@ Our Guarantee:  Expert quality everytime. We don&#x27;t consider a job done unle
                                 type="button"
                                 @click="expanded = !expanded"
                                 class="flex items-start justify-between w-full text-left text-gray-400 rounded  focus:outline-none focus-visible:ring-2 ring-primary"
-                                aria-controls="27088"
+                                aria-controls="27113"
                                 :aria-expanded="expanded"
                             >
                                 <span class="font-medium text-gray-900">What is the best way to get a quote?</span>
@@ -3076,7 +3076,7 @@ Our Guarantee:  Expert quality everytime. We don&#x27;t consider a job done unle
                                 </span>
                             </button>
                         </dt>
-                        <dd x-show="expanded" x-cloak x-collapse class="pr-12" id="27088">
+                        <dd x-show="expanded" x-cloak x-collapse class="pr-12" id="27113">
                             <div aria-hidden="true" class="invisible h-2"></div>
                             <p class="mt-2 text-base text-gray-500">The best way to get in touch is to call or text (315) 761-1000. We provide personal attention to every customer.</p>
                         </dd>
@@ -3733,92 +3733,92 @@ Our Guarantee:  Expert quality everytime. We don&#x27;t consider a job done unle
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-110934"
-                                            name="110934"
+                                            id="contact-service-110983"
+                                            name="110983"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-110934" class="ml-3 text-sm font-medium text-gray-700">Snow Removal / Plowing</label>
+                                        <label for="contact-label-service-110983" class="ml-3 text-sm font-medium text-gray-700">Snow Removal / Plowing</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-110935"
-                                            name="110935"
+                                            id="contact-service-110984"
+                                            name="110984"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-110935" class="ml-3 text-sm font-medium text-gray-700">Ice Control</label>
+                                        <label for="contact-label-service-110984" class="ml-3 text-sm font-medium text-gray-700">Ice Control</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-110936"
-                                            name="110936"
+                                            id="contact-service-110985"
+                                            name="110985"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-110936" class="ml-3 text-sm font-medium text-gray-700">Mowing</label>
+                                        <label for="contact-label-service-110985" class="ml-3 text-sm font-medium text-gray-700">Mowing</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-110937"
-                                            name="110937"
+                                            id="contact-service-110986"
+                                            name="110986"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-110937" class="ml-3 text-sm font-medium text-gray-700">Mulch Installation</label>
+                                        <label for="contact-label-service-110986" class="ml-3 text-sm font-medium text-gray-700">Mulch Installation</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-110938"
-                                            name="110938"
+                                            id="contact-service-110987"
+                                            name="110987"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-110938" class="ml-3 text-sm font-medium text-gray-700">Landscape Design</label>
+                                        <label for="contact-label-service-110987" class="ml-3 text-sm font-medium text-gray-700">Landscape Design</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-110939"
-                                            name="110939"
+                                            id="contact-service-110988"
+                                            name="110988"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-110939" class="ml-3 text-sm font-medium text-gray-700">Lawn Aeration</label>
+                                        <label for="contact-label-service-110988" class="ml-3 text-sm font-medium text-gray-700">Lawn Aeration</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-110940"
-                                            name="110940"
+                                            id="contact-service-110989"
+                                            name="110989"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-110940" class="ml-3 text-sm font-medium text-gray-700">Fertilization</label>
+                                        <label for="contact-label-service-110989" class="ml-3 text-sm font-medium text-gray-700">Fertilization</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-110941"
-                                            name="110941"
+                                            id="contact-service-110990"
+                                            name="110990"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-110941" class="ml-3 text-sm font-medium text-gray-700">Sod Layouts</label>
+                                        <label for="contact-label-service-110990" class="ml-3 text-sm font-medium text-gray-700">Sod Layouts</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-110942"
-                                            name="110942"
+                                            id="contact-service-110991"
+                                            name="110991"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-110942" class="ml-3 text-sm font-medium text-gray-700">Holiday Lighting</label>
+                                        <label for="contact-label-service-110991" class="ml-3 text-sm font-medium text-gray-700">Holiday Lighting</label>
                                     </div>
                                 
                             </div>
