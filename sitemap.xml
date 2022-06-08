@@ -2,3 +2,117 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+    <url>
+        <loc>https://puleopropertymaintenance.com/index</loc>
+        <lastmod>2022-06-08</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc>https://puleopropertymaintenance.com/store</loc>
+        <lastmod>2022-06-08</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc>https://puleopropertymaintenance.com/reviews</loc>
+        <lastmod>2022-06-08</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc>https://puleopropertymaintenance.com/gallery-All</loc>
+        <lastmod>2022-06-08</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc>https://puleopropertymaintenance.com/gallery-Snow-Services</loc>
+        <lastmod>2022-06-08</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc>https://puleopropertymaintenance.com/gallery-Landscape-Design</loc>
+        <lastmod>2022-06-08</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc>https://puleopropertymaintenance.com/gallery-Lawn-Maintenance</loc>
+        <lastmod>2022-06-08</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc>https://puleopropertymaintenance.com/service-Snow-Removal-&-Plowing</loc>
+        <lastmod>2022-06-08</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc>https://puleopropertymaintenance.com/service-Ice-Control</loc>
+        <lastmod>2022-06-08</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc>https://puleopropertymaintenance.com/service-Mowing</loc>
+        <lastmod>2022-06-08</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc>https://puleopropertymaintenance.com/service-Mulch-Installation</loc>
+        <lastmod>2022-06-08</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc>https://puleopropertymaintenance.com/service-Landscape-Design</loc>
+        <lastmod>2022-06-08</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc>https://puleopropertymaintenance.com/service-Lawn-Aeration</loc>
+        <lastmod>2022-06-08</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc>https://puleopropertymaintenance.com/service-Fertilization</loc>
+        <lastmod>2022-06-08</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc>https://puleopropertymaintenance.com/service-Sod-Layouts</loc>
+        <lastmod>2022-06-08</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc>https://puleopropertymaintenance.com/service-Holiday-Lighting</loc>
+        <lastmod>2022-06-08</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+</urlset>
